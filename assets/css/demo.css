@@ -378,6 +378,15 @@
 .blurred-container .motto .no-right-border{
     border-right: none;
 }
+.blurred-container .motto .no-bottom-border{
+    border-bottom: none;
+}
+.blurred-container .motto .no-left-border{
+    border-left: none;
+}
+.blurred-container .motto .no-top-border{
+    border-top: none;
+}
 
 @media (max-width: 768px){
     .blurred-container .motto{
