@@ -62,7 +62,7 @@
 			<!-- <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Clean & minimal Theme</h3> -->
 			<ul class="list-inline intro-social-buttons">
 				<li>
-					<a href="https://www.facebook.com/AvegroupCR" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s">
+					<a href="https://www.facebook.com/AvegroupCR" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s" target="_blank">
 						<span class="network-name">Siga-nos no Facebook</span>
 					</a>
 				</li>
@@ -99,9 +99,9 @@
 					
 					<li class="menuItem"><a href="#quemsomos">Quem somos?</a></li>
 					<li class="menuItem"><a href="#useit">Use It</a></li>
-					<li class="menuItem"><a href="#screen">Screenshot</a></li>
+					<li class="menuItem"><a href="#section-galeria">Galeria</a></li>
 					<li class="menuItem"><a href="#credits">Credits</a></li>
-					<li class="menuItem"><a href="#contact">Contact</a></li>
+					<li class="menuItem"><a href="#section-contato">Contato</a></li>
 				</ul>
 			</div>
 		   
@@ -269,52 +269,71 @@
     </div>
 
 	<!-- Screenshot -->
-	<div id="screen" class="content-section-b">
+	<div id="section-galeria" class="content-section-b">
         <div class="container">
           <div class="row" >
 			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-				<h2>Screen App</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
+				<h2>Galeria de fotos</h2>
+				<!-- <p class="lead" style="margin-top:0">A special thanks to Death.</p> -->
 			 </div>
 		  </div>
 		    <div class="row wow bounceInUp" >
               <div id="owl-demo" class="owl-carousel">
 				
-				<a href="img/slide/1.png" class="image-link">
+				<a href="img/slide/1.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/slide/1.jpg" alt="Owl Image">
 					</div>
 				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
+
+				<a href="img/slide/2.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/slide/2.jpg" alt="Owl Image">
 					</div>
 				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
+
+				<a href="img/slide/3.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/slide/3.jpg" alt="Owl Image">
 					</div>
 				</a>
-				
-				<a href="img/slide/1.png" class="image-link">
+
+				<a href="img/slide/4.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/slide/4.jpg" alt="Owl Image">
 					</div>
 				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
+
+				<a href="img/slide/5.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/slide/5.jpg" alt="Owl Image">
 					</div>
 				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
+
+				<a href="img/slide/6.jpg" class="image-link">
 					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+						<img  class="img-responsive img-rounded" src="img/slide/6.jpg" alt="Owl Image">
 					</div>
 				</a>
+
+				<a href="img/slide/7.jpg" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/7.jpg" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="img/slide/8.jpg" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/8.jpg" alt="Owl Image">
+					</div>
+				</a>
+
+				<a href="img/slide/9.jpg" class="image-link">
+					<div class="item">
+						<img  class="img-responsive img-rounded" src="img/slide/9.jpg" alt="Owl Image">
+					</div>
+				</a>
+
               </div>       
           </div>
         </div>
@@ -426,61 +445,58 @@
 	</div>
 	
 	<!-- Contact -->
-	<div id="contact" class="content-section-a">
+	<div id="section-contato" class="content-section-a">
 		<div class="container">
 			<div class="row">
 			
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Contact Us</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
+				<h2>Contato</h2>
+				<p class="lead" style="margin-top:0">Fale conosco através do formulário abaixo!</p>
 			</div>
 			
 			<form role="form" action="" method="post" >
 				<div class="col-md-6">
 					<div class="form-group">
-						<label for="InputName">Your Name</label>
+						<label for="InputName">Seu nome</label>
 						<div class="input-group">
-							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Nome" required>
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
 					
 					<div class="form-group">
-						<label for="InputEmail">Your Email</label>
+						<label for="InputEmail">Seu e-mail</label>
 						<div class="input-group">
-							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="E-mail" required>
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
 					
 					<div class="form-group">
-						<label for="InputMessage">Message</label>
+						<label for="InputMessage">Sua mensagem</label>
 						<div class="input-group">
-							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Digite aqui sua mensagem, crítica, elogio ou sugestão para nós!" required></textarea>
 							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
 
-					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+					<input type="submit" name="submit" id="submit" value="Enviar mensagem" class="btn wow tada btn-embossed btn-primary pull-right">
 				</div>
 			</form>
 			
 			<hr class="featurette-divider hidden-lg">
 				<div class="col-md-5 col-md-push-1 address">
 					<address>
-					<h3>Office Location</h3>
-					<p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">The Pentagon<br>
-					Washington, DC 20301</a><br>
-					Phone: XXX-XXX-XXXX<br>
-					Fax: XXX-XXX-YYYY</p>
+					<h3>Endereço</h3>
+					<p class="lead"><a href="https://www.google.com/maps/place/Campo+Mour%C3%A3o,+PR,+Brasil/@-24.0448224,-52.3814957,15z/data=!4m5!3m4!1s0x94ed751052cee71d:0x72e478adcc937cc6!8m2!3d-24.0436553!4d-52.3781098">Rua Lorem Ipsum, Nº 999<br>
+					Campo Mourão - PR</a><br>
+					Telefone: (44) 3040-5060<br>
+					E-mail: contato@avegroup.com.br</p>
 					</address>
 
-					<h3>Social</h3>
+					<h3>Curta!</h3>
 					<li class="social"> 
-					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
-					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
-					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
-					<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
+					<a href="https://www.facebook.com/AvegroupCR" target="_blank"><i class="fa fa-facebook-square fa-size"> </i></a>
 					</li>
 				</div>
 			</div>
