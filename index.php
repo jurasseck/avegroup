@@ -434,36 +434,26 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <h3 class="footer-title">Follow Me!</h3>
-            <p>Vuoi ricevere news su altri template?<br/>
-              Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br/>
-              Go to: <a  href="http://andreagalanti.it" target="_blank">andreagalanti.it</a>
+            <h3 class="footer-title">Informações</h3>
+            <p>
+            	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam illum et ea quisquam suscipit beatae ipsam nesciunt, facilis, nostrum molestiae assumenda. Nobis, modi explicabo hic debitis consequuntur laudantium enim quis.
             </p>
 			
 			<!-- LICENSE -->
-			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-		   property="dc:title">Flatfy Theme </a> by
-		   <a rel="dc:creator" href="http://www.andreagalanti.it"
-		   property="cc:attributionName">Andrea Galanti</a>
-		   is licensed to the public under 
-		   <BR>the <a rel="license"
-		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
-		   
-	   
+			<a rel="cc:attributionURL" href=""
+			property="dc:title">AveGroup </a> por
+			<a rel="dc:creator" href=""
+			property="cc:attributionName">Luis Juraseck</a>
+			e <a rel="dc:creator" href=""
+			property="cc:attributionName">Vinícius Rufine</a>	   
           </div> <!-- /col-xs-7 -->
 
           <div class="col-md-5">
             <div class="footer-banner">
-              <h3 class="footer-title">Flatfy Theme</h3>
+              <h3 class="footer-title">Mais informações</h3>
               <ul>
-                <li>12 Column Grid Bootstrap</li>
-                <li>Form Contact</li>
-                <li>Drag Gallery</li>
-                <li>Full Responsive</li>
-                <li>Lorem Ipsum</li>
+                <li>Lorem ipsum dolor sit amet,  Expedita placeat, officiis aperiam, accusantium tempore illo tenetur et corrupti ducimus fugiat possimus natus enim, deserunt minima minus porro commodi eos officia.</li>
               </ul>
-              Go to: <a href="http://andreagalanti.it/flatfy" target="_blank">andreagalanti.it/flatfy</a>
             </div>
           </div>
         </div>
