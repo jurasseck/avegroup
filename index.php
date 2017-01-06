@@ -357,7 +357,7 @@
 	</div>
 	
 	<!-- Banner Download -->
-	<div id="downloadlink" class="banner">
+<!-- 	<div id="downloadlink" class="banner">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
@@ -367,7 +367,7 @@
 			 </div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<!-- Contact -->
 	<div id="section-contato" class="content-section-a">
