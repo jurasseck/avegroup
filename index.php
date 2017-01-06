@@ -443,7 +443,7 @@
 			<a rel="cc:attributionURL" href=""
 			property="dc:title">AveGroup </a> por
 			<a rel="dc:creator" href=""
-			property="cc:attributionName">Luis Juraseck</a>
+			property="cc:attributionName">Luis Jurasseck</a>
 			e <a rel="dc:creator" href=""
 			property="cc:attributionName">Vinícius Rufine</a>	   
           </div> <!-- /col-xs-7 -->
