@@ -5,48 +5,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="AveGroup">
-    <meta name="author" content="Luis Jurasseck e Vinícius Rufine">
 
-    <title>AveGroup</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
- 
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	
-    <!-- Custom CSS-->
-    <link href="css/general.css" rel="stylesheet">
-	
-	 <!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	
-	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
-	<!--[if IE 9]>
-		<script src="js/PIE_IE9.js"></script>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="js/PIE_IE678.js"></script>
-	<![endif]-->
-
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
-	<link rel="icon" href="favicon.ico">
-</head>
+<?php include 'includes/head.php' ?>
 
 <body id="home">
 
@@ -62,7 +22,7 @@
 			<!-- <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Clean & minimal Theme</h3> -->
 			<ul class="list-inline intro-social-buttons">
 				<li>
-					<a href="https://www.facebook.com/AvegroupCR" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s" target="_blank">
+					<a href="https://www.facebook.com/AvegroupCR" class="btn btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s" target="_blank">
 						<span class="network-name">Siga-nos no Facebook</span>
 					</a>
 				</li>
@@ -86,7 +46,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
+					<span class="sr-only">Navegação</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -96,7 +56,6 @@
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					
 					<li class="menuItem"><a href="#quemsomos">Quem somos?</a></li>
 					<li class="menuItem"><a href="#useit">Use It</a></li>
 					<li class="menuItem"><a href="#section-galeria">Galeria</a></li>
@@ -111,89 +70,55 @@
 	<!-- What is -->
 	<div id="quemsomos" class="content-section-b" style="border-top: 0">
 		<div class="container">
-
 			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
 				<h2>Quem somos?</h2>
 				<p class="lead" style="margin-top:0">Apresentação resumida do grupo AveGroup.</p>
-				
 			</div>
-			
-			<div class="row">
-			
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
-				  <h3>Follow Me</h3>
-				  <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
 
+			<div class="row">
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/icon/book.svg" alt="Generic placeholder image">
+				  <h3>História</h3>
+				  <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
-				   <h3>Gallery</h3>
+				  <img  class="rotate" src="img/icon/stopwatch.svg" alt="Generic placeholder image">
+				   <h3>Metas</h3>
 				   <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
 				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
 				
 				<div class="col-sm-4 wow fadeInDown text-center">
 				  <img  class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
-				   <h3>Retina</h3>
+				   <h3>Ações</h3>
 					<p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
 				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
 				</div><!-- /.col-lg-4 -->
-				
-			</div><!-- /.row -->
-				
-			<div class="row tworow">
-			
-				<div class="col-sm-4  wow fadeInDown text-center">
-				  <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
-				  <h3>Responsive</h3>
-				  <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
-				   <h3>Google</h3>
-				   <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
-				<div class="col-sm-4 wow fadeInDown text-center">
-				  <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
-				   <h3>Bootstrap</h3>
-				 <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
-				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
-				</div><!-- /.col-lg-4 -->
-				
 			</div><!-- /.row -->
 		</div>
 	</div>
 	
 	<!-- Use it -->
     <div id ="useit" class="content-section-a">
-
         <div class="container">
-			
             <div class="row">
-			
 				<div class="col-sm-6 pull-right wow fadeInRightBig">
                     <img class="img-responsive " src="img/ipad.png" alt="">
                 </div>
 				
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Full Responsive</h3>
-					<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                    <h3 class="section-heading">Produto/Serviço principal AveGroup</h3>
+					<div class="sub-title lead3">Breve descrição das qualidades do produto/serviço</div>
                     <p class="lead">
-						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-						uam non erat mirum sapientiae lorem cupido
-						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+						Descrição mais detalhada do produto/serviço vendido pela AveGroup.<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, nulla repudiandae, quidem sapiente totam blanditiis ut. Consectetur facilis consequatur molestiae vel, commodi? Reiciendis reprehenderit, error quisquam corporis dicta nobis necessitatibus.
 					</p>
 
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+					<p>
+						<a class="btn btn-embossed btn-primary" href="" role="button">Ver mais detalhes</a>
+					</p>
 				</div>   
             </div>
         </div>
