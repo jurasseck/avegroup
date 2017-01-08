@@ -125,7 +125,7 @@
         <!-- /.container -->
     </div>
 
-    <div class="content-section-b"> 
+    <!-- <div class="content-section-b"> 
 		
 		<div class="container">
             <div class="row">
@@ -161,10 +161,10 @@
 
 					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
 					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-				</div>  			
+				</div>
 			</div>
         </div>
-    </div>
+    </div> -->
 
     <div class="content-section-a">
 
@@ -443,7 +443,7 @@
 			<a rel="cc:attributionURL" href=""
 			property="dc:title">AveGroup </a> por
 			<a rel="dc:creator" href=""
-			property="cc:attributionName">Luis Jurasseck</a>
+			property="cc:attributionName">Luís Henrique Jurasseck</a>
 			e <a rel="dc:creator" href=""
 			property="cc:attributionName">Vinícius Rufine</a>	   
           </div> <!-- /col-xs-7 -->
